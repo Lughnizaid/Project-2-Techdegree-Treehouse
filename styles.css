@@ -77,7 +77,7 @@ header .profile-image:hover {
   transform: scale(1.4) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: red;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
