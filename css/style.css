@@ -1,0 +1,275 @@
+body {
+  background-color: #fafafa;
+}
+
+.top-header {
+  background-color: #fafafa;
+  padding-bottom: 25px;
+}
+a {
+  color: #7f7f87;
+  text-decoration: none;
+}
+
+.name,
+.main-nav {
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+}
+.name {
+  color:#4a4a4a;
+}
+li {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  background-color: yellow;
+  display: block;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+.profile-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.intro {
+  text-align: center;
+  padding: 0 30px;
+  color: #7f7f87;
+}
+.main-content {
+  background-color: #ffffff;
+}
+.portfolio {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #4a4a4a;
+
+}
+.portfolio-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+}
+.portfolio-title,
+.portfolio-paragraph {
+  text-align: center;
+  padding: 0 30px;
+  color: #7f7f87;
+}
+.portfolio-paragraph {
+  padding-bottom: 50px;
+  margin-top: -10px;
+}
+.contact-area {
+  background-color: #fafafa;
+  padding-top: 20px 0px;
+  text-align: center;
+  color: #7f7f87;
+}
+.footer-text {
+  padding: 0 30px;
+}
+.contact-title {
+  font-size: 17px;
+  color: #7f7f87;
+}
+.phone,
+.email {
+  font-weight: bold;
+  color: #7f7f87;
+}
+.footer-bottom {
+  border-top: solid 1px #7f7f87;
+  margin: 50px 10px 0px 10px;
+
+
+}
+.left {
+  float: left;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+.right {
+  float: right;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+.footer-nav li {
+  visibility: visible;
+  display: inline;
+  font-size: 13px;
+  background-color: inherit;
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+
+  a {
+    color: #4a4a4a;
+  }
+  li {
+      display: inline-block;
+      width: 15%;
+      margin-right: 20px;
+      background-color: inherit;
+    }
+    .profile {
+      display: inline-block;
+    }
+    .profile-image {
+      float: right;
+      padding: 5% 5% 0 0;
+      width: 40%;
+    }
+
+    .intro {
+      text-align: justify;
+      float: left;
+      width: 40%;
+      padding: 2% 5% 0 5%;
+      font-size: 22px;
+
+    }
+    .port-left {
+          width: 50%;
+          float: left;
+    }
+    .port-right {
+          width: 50%;
+          float: right;
+    }
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .contact-area {
+        background-color: #fafafa;
+        padding: 60px 120px;
+        text-align: center;
+        color: #7f7f87;
+    }
+      .contact-title,
+      .footer-text,
+      .email,
+      .phone,
+      .email-text,
+      .phone-text
+       {
+        font-size: 22px;
+        color: #7f7f87;
+    }
+    .footer-bottom {
+      border-top: solid 1px #7f7f87;
+      margin-right: -70px;
+      margin-left: -70px;
+      margin-bottom: -50px;
+      font-size: 16px;
+
+    }
+    .left {
+      float: left;
+      font-weight: bold;
+      margin-left: 10px;
+      color: #000;
+    }
+    .right {
+      visibility: hidden;
+    }
+    .footer-nav {
+      float: right;
+      margin-right: -130px;
+    }
+
+    .footer-nav li {
+      visibility: visible;
+      display: inline;
+      font-size: 13px;
+      background-color: inherit;
+    }
+    .footer-nav li a {
+      color: #000;
+    }
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+
+  nav {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-nav {
+    margin-right: 30px;
+  }
+  .main-nav li {
+    margin-right: -20px;
+    width: 150px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: inline-block;
+  }
+  .name {
+    float: left;
+    margin-right: auto;
+    margin-left: 42px;
+  }
+  .intro {
+    padding-top: 32px;
+    font-size: 20px;
+    margin-left: -5px;
+  }
+  .profile-image {
+    margin-right: -5px;
+  }
+  .port-left,
+  .port-right {
+  width: 33%;
+  vertical-align: top;
+  float: none;
+  display: inline-block;
+}
+.main-content {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.portfolio-title,
+.portfolio-paragraph {
+    color: black;
+
+}
+
+@media (min-width: 1200px) {
+.intro {
+  padding-top: 42px;
+  font-size: 20px;
+  margin-left: -5px;
+}
+}
+@media (min-width: 1400px) {
+.intro {
+  padding-top: 48px;
+  font-size: 20px;
+  margin-left: -5px;
+  }
+}

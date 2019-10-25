@@ -1,57 +1,80 @@
-<!doctype html>
+<!doctype HTML>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Alfadjri' Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body>
+  <head>
+    <title>Project 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
 
-    <nav class="main-nav">
-        <ul class="nav">
-          <li class="name">Alfadjri</li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="germany.html">Germany</a></li>
-          <li><a href="aussi.html">Australia</a></li>
-        </ul>
-    </nav>
-
-    <header>
-      <img src="images/alfadjri.jpg" alt="This is me" class="profile-image">
-      <h1 class="tag name">Hi, I'm Alfadjri.</h1>
-      <p class="tag location">I'm a front end engineer student</p>
-    </header>
-
-    <main class="flex">
-      <article class="card">
-        <h2>My Story</h2>
-        <p>How i decided to pursue my career as front end developer, and how i decide to take techdegree in front end web development by Treehouse.</p>
-        <p>I’ve been a professional business development in national and multinational companies. Ranging from junior position to middle management. However, despite enjoying the business work, I still feel that what i was doing is not fulfilling mylife. And now, I want to pursue my dream to become front end software programmer.</p>
-      </article>
-
-      <article class="card">
-        <h2>Target</h2>
-        <p>I have a goal to master the front end and back end skills such as:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>React Native</li>
-          <li>PHP</li>
-          <li>Node.JS</li>
-        </ul>
-        <p>I would like to work with a firm that I can train my skills and use everyday. Along the way, I also want to build my own startup that focus on technology service in fashion and luxury industry</p>
-      </article>
-
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/lughni-alfa-64748a176/" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/lughnirangga" class="social github">Github</a></li>
+<body>
+  <header class="top-header group">
+    <nav>
+      <h1 class="name" id="top">Student Name</h1>
+      <ul class="main-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#portfolio-anchor">PORTOFOLIO</a></li>
+        <li><a href="#contact-anchor">CONTACT</a></li>
       </ul>
-      <p class="copyright">Copyright 2019, Alfadjri</p>
-    </footer>
-  </body>
-  </html>
+    </nav>
+    <div class="profile group">
+      <img src="images/responsive-layout-profile.png" alt="My profile" class="profile-image">
+      <p class="intro"> Hi, I am a front end developer who loves responsive design and css. I recently finished a degree in front-end web development at treehouse and am excited to put all my skills to use.</p>
+    </div>
+  </header>
+  <main>
+    <div class="main-content group">
+      <br>
+      <h4 class="portfolio group" id="portfolio-anchor">PORTFOLIO</h4>
+        <article class="port-left">
+          <img src="images/portfolio-1.png" alt="portfolio 1" class="portfolio-image">
+          <h3 class="portfolio-title">Marketing Page</h3>
+          <p class="portfolio-paragraph">The project shows the front page of a marketing website meant for a spesific business i'm interested in.</P>
+        </article>
+        <article class="port-right">
+          <img src="images/portfolio-2.png" alt="portfolio 2" class="portfolio-image">
+          <h3 class="portfolio-title">Search Page</h3>
+          <p class="portfolio-paragraph">The project searches through spesific database to find the information that the user is trying to look up.</P>
+        </article>
+        <article class="port-left">
+          <img src="images/portfolio-3.png" alt="portfolio 3" class="portfolio-image">
+          <h3 class="portfolio-title">Travel App</h3>
+          <p class="portfolio-paragraph">This projects compares travel times based on different transportation methods and tell you the best one.</P>
+        </article>
+        <article class="port-right">
+          <img src="images/portfolio-4.png" alt="portfolio 4" class="portfolio-image">
+          <h3 class="portfolio-title">Map of Favorite Spots</h3>
+          <p class="portfolio-paragraph">This projects uses mapping apis to plot point for my favorite spots in the city for a do it yourself walking tour.</P>
+        </article>
+        <article class="port-left">
+          <img src="images/portfolio-5.png" alt="portfolio 5" class="portfolio-image">
+          <h3 class="portfolio-title">Photo Gallery</h3>
+          <p class="portfolio-paragraph">This projects shows pictures from recent trips to the viewer and allow them to easily navigate through photos.</P>
+        </article>
+        <article class="port-right">
+          <img src="images/portfolio-6.png" alt="portfolio 6" class="portfolio-image">
+          <h3 class="portfolio-title">Calculator</h3>
+          <p class="portfolio-paragraph">Someone can enter the numebr they wants, and press the big blue button to get the result.</P>
+        </article>
+    </div>
+    </main>
+    <div class="contact-area group" id="contact-anchor">
+        <h4 class="contact-title">Contact</h4>
+          <p class="footer-text">If you are interested in chatting or want more information about what I've working on, I'd love to hear it from you.</p>
+          <br>
+          <p class="phone-text">Phone  <span class="phone"><a href="tel:+1(111)555-1234">+1(111)555-1234</a></span></p>
+          <p class="email-text">Email  <span class="email"><a href="mailto:email@yoursite.com">email@yoursite.com</a></span></p>
+        <footer class="footer-bottom group">
+          <p class="left">Student Name</p>
+          <p class="right"><a href="#top">Back to the Top</a></p>
+          <ul class="footer-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#portfolio-anchor">PORTFOLIO</a></li>
+            <li><a href="#contact-anchor">CONTACT</a></li>
+          </ul>
+        </footer>
+    </div>
+</body>
+</html>
