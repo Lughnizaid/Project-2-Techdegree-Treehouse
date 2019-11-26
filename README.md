@@ -3,7 +3,7 @@
 <p>By using HTML, CSS, and responsive design, I developed a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.</p>
 <br>
 <h2>Live Demo</h2>
-<a href="https://lughnizaid.github.io/Project-1-Techdegree-Treehouse/"><img src="images/snapshot.png" href="https://lughnirangga.github.io/personal-page/"></a>
+<a href="https://lughnizaid.github.io/Project-2-Techdegree-Treehouse/"><img src="images/snapshot-responsive.png"></a>
 <br>
 <h3>Overview</h3>
 <p>For this project, I practiced my web design skills by editing HTML elements and their styles. With the HTML and CSS already provided, I was asked to add, edit, and remove the pre-existing code and make it my own.</p> 
