@@ -16,6 +16,7 @@
   <li>Responsive Images</li>
   <li>Testing and debugging</li>
 </ul>
+<br>
 <h3>Conclusion</h3>
 <p>Finally, I learned how to write all of the HTML and CSS by myself. Since using a mobile-first approach, I learned that media queries has important role in creating responsive website, that has a fitness on the tablet and desktop versions. I also learn thatt it is very important that responsive images work. While adding my own HTML and CSS, some issues came up, and I used the Dev Tools to debug and test the code I added</p>.
 
