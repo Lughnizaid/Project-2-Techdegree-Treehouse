@@ -1,18 +1,19 @@
-# personal
-Techdegree Treehouse. Project 1.  Personal Profile Page.  I Customized a personal online profile by adding graphics, updating text, and improving the look of the web page using CSS (Cascading Style Sheets). 
-Treehouse Personal Profile Page
-Customized a personal online profile by adding graphics, updating text, and improving the look of the web page using CSS (Cascading Style Sheets).
+<h1>Project 2 in Techdegree. Treehouse Responsive Layout</h1>
+<br>
+<p>By using HTML, CSS, and responsive design, I developed a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.</p>
+<br>
+<h2>Live Demo</h2>
+<a href="https://lughnizaid.github.io/Project-1-Techdegree-Treehouse/"><img src="images/snapshot.png" href="https://lughnirangga.github.io/personal-page/"></a>
+<br>
+<h3>Overview</h3>
+<p>For this project, I practiced my web design skills by editing HTML elements and their styles. With the HTML and CSS already provided, I was asked to add, edit, and remove the pre-existing code and make it my own.</p> 
+<br>
+<p>Part of the project was to also add additional pages and images on your own for meeting the exceeds criteria. This gave me a good first look on working with HTML and CSS.</p>
 
-Live Demo
-Click here for a live look.
-
-
-
-Overview
-For this project, I practiced my web design skills by editing HTML elements and their styles. With the HTML and CSS already provided, I was asked to add, edit, and remove the pre-existing code and make it my own. Part of the project was to also add additional pages and images on your own for meeting the exceeds criteria. This gave me a good first look on working with HTML and CSS.
-
-Skills
-HTML
-CSS
-Conclusion
-At the end of this project, I had a better understanding of HTML and CSS. Going for the exceeds really helped me grasp these new concepts. This project also gave me a web page that I can use as a personal online portfolio to advertise my experience, skills, and goals. It could also be used to share my social media links!
+<h3>Skills</h3>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+<h3>Conclusion</h3>
+<p>At the end of this project, I had a better understanding of HTML and CSS. This project gave me a web page that I can use as a personal online portfolio to advertise my experience, skills, and goals. It could also be used to share my social media links!</p>.
